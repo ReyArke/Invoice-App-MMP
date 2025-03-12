@@ -16,6 +16,7 @@ export const addNewProductBtnHandler = () => {
     createProductCard(
       newProductName.value,
       newProductPrice.valueAsNumber,
+      
       createId
     )
   );
