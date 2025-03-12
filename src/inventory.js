@@ -14,9 +14,9 @@ export const addNewProductBtnHandler = () => {
   // console.log("addNewProduct");
   productGroup.append(
     createProductCard(
-      createId,
       newProductName.value,
-      newProductPrice.valueAsNumber
+      newProductPrice.valueAsNumber,
+      createId
     )
   );
 
@@ -59,5 +59,3 @@ export const createProductCard = (name, price, id) => {
 
   return productCard;
 };
-
-
